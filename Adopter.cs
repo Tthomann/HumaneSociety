@@ -9,9 +9,11 @@ namespace HumaneSociety
     public class Adopter
     {
         public string adopterName;
+        public double adopterMoney;
         public Adopter()
         {
-            adopterName = "testAdopter";
+            adopterName = "Adopter";
+            adopterMoney = 300.00;
         }
     }
 }

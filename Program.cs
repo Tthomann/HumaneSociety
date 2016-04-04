@@ -10,6 +10,14 @@ namespace HumaneSociety
     {
         static void Main(string[] args)
         {
+           
+            Interface interfaces = new Interface();//
+
+            interfaces.NavigateShelter();
+            
+            
+            
+            Console.ReadLine();
         }
     }
 }

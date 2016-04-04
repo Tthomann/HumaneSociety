@@ -9,10 +9,13 @@ namespace HumaneSociety
     public class Animal
     {
         public bool hadShot;
+        public bool hasBeenFed;
         public string animalName;
+        public double animalValue;
         public Animal()
         {
-            animalName = "testDog";
+           
         }
+    
     }
 }

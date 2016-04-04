@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    public class Cage
+    public class Dog : Animal
     {
-       
-        public List<Dog> dogCage = new List<Dog>();
         
-        public Cage()
+        public Dog()
         {
-
+            animalName = "dog";
+            animalValue = 240.00;
         }
-     
-     
     }
 }
