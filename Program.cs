@@ -11,9 +11,9 @@ namespace HumaneSociety
         static void Main(string[] args)
         {
            
-            Interface interfaces = new Interface();//
+            System system = new System();//
 
-            interfaces.NavigateShelter();
+            system.NavigateShelter();
             
             
             

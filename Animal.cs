@@ -10,10 +10,18 @@ namespace HumaneSociety
     {
         public bool hadShot;
         public bool hasBeenFed;
+
+        
         public string animalName;
-        public double animalValue;
+
         public Animal()
         {
+        List<string> names = new List<string> { "Pennie", "Daisy", "Lacey", "Abby", "Paul", "Mittens", "Boxey", "Barf", "Angsty", "Bartok" };
+            Random randomName = new Random();
+            animalName = names[randomName.Next(0, names.Count)];
+            hadShot = false;
+            hasBeenFed = false;
+           
            
         }
     

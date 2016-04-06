@@ -8,11 +8,11 @@ namespace HumaneSociety
 {
     public class Dog : Animal
     {
-        
+
         public Dog()
         {
-            animalName = "dog";
-            animalValue = 240.00;
+
         }
+        
     }
 }

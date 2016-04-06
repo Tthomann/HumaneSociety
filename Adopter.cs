@@ -8,12 +8,19 @@ namespace HumaneSociety
 {
     public class Adopter
     {
+        Animal animal = new Animal();
         public string adopterName;
         public double adopterMoney;
+        public Dog[] adoptersDog = { };
+
+        public string[] adopterNames = { "Tyler", "Charles", "Greg", "Justin", "Ryan" };
         public Adopter()
         {
-            adopterName = "Adopter";
-            adopterMoney = 300.00;
+         
+          Random randomName = new Random();
+          adopterName = adopterNames[randomName.Next(0, adopterNames.Length)];
+          adopterMoney = 300.00;
         }
+     
     }
 }

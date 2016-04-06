@@ -46,10 +46,10 @@
     <Compile Include="Adopter.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="AnimalShelter.cs" />
-    <Compile Include="Cage.cs" />
+    <Compile Include="Cat.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Food.cs" />
-    <Compile Include="Interface.cs" />
+    <Compile Include="System.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
